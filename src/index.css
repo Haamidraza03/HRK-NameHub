@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+  height: 100vh;
+  font-family: "Lora", serif !important;
+  background-color: black !important;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 1, 42) 100%);
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar{
+  width: 3px;
+  border-radius:10px !important;
+  background-color: rgb(22, 21, 21) !important;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(14, 12, 12) !important;;
+  border-radius: 10px !important;
+  z-index: -1 !important;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #2AEBF8;
+  border-radius: 10px;
+}
+
+.clip{
+    color: transparent;
+    position: relative;
+    background: linear-gradient(90deg, rgb(0, 77, 192) 0%, rgb(174, 0, 255) 50% , rgb(228, 19, 19) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.bg-scroll{
+  overflow-y: scroll !important;
+  height: 320px !important;
+}
+
+@media(max-width:425px){
+
+  #welcome{
+    margin-top: 80px !important;
+  }
+
+  #btngrid{
+    font-size: 15px !important;
+    width: 100px !important;
+    padding: 7px !important;
+    margin-left: 50px !important;
+  }
+
+  #unameofgrid{
+    font-size: 15px;
+    margin-left: 0px !important;
+  }
+}
