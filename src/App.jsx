@@ -11,6 +11,18 @@ import Footer from './components/Footer';
 
 function App() {
 
+  useEffect(() => {
+    const handleRightClick = (e) => {
+      e.preventDefault();
+    }
+
+    document.addEventListener('contextmenu', handleRightClick);
+    
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+    }
+  }, []);
+
   const [query, setQuery]       = useState('');
   const [loading, setLoading]   = useState(false);
   const [users, setUsers]       = useState([]);

@@ -39,15 +39,15 @@ export default function UserDetail({ data, onBack }) {
               </a>
             )}{' '}
           </p>
-          <p className='fs-5 mt-0'>Location: {profile.location}</p>
+          <p className='fs-5 mt-0 mb-0'>Location: {profile.location}</p>
           <div>
-            <Badge bg="success" className="mx-2 fs-5">
+            <Badge bg="success" className="mx-2 fs-5 mt-2">
               Followers: {profile.followers}
             </Badge>
-            <Badge bg="success" className="mx-2 fs-5">
+            <Badge bg="success" className="mx-2 fs-5 mt-2">
               Following: {profile.following}
             </Badge>
-            <Badge bg="success" className="mx-2 fs-5">
+            <Badge bg="success" className="mx-2 fs-5 mt-2">
               Public Repos: {profile.public_repos}
             </Badge>
           </div>
