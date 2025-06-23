@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SearchBar({ query, onChange, onSearch }) {
   return (
-    <center data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" id='searchbar'>
+    <center data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-in-out" id='searchbar' style={{marginBottom:"58px"}}>
         <div className="mb-0 mt-5">
       <div className='text-center row justify-content-center'>
             <div className='d-flex col-md-7'>

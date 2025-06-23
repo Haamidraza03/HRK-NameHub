@@ -46,7 +46,7 @@ body {
   }
 
   #searchbar{
-    margin-bottom: 100px;
+    margin-bottom: 100px !important;
   }
 
   #btngrid{
