@@ -45,6 +45,10 @@ body {
     margin-top: 80px !important;
   }
 
+  #searchbar{
+    margin-bottom: 100px;
+  }
+
   #btngrid{
     font-size: 15px !important;
     width: 100px !important;
